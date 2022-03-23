@@ -9,4 +9,21 @@
 body {
     font-family: lato, sans-serif;
     font-weight: 300;
+    color: #404040;
 }
+
+h1, h2 {
+    font: 'Roboto Slab', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #1F2426;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+    font-weight: 900;
+}
+
+
