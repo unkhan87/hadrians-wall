@@ -20,10 +20,48 @@ h1, h2 {
     color: #1F2426;
 }
 
+/* styling logo and menu */
 #logo {
     float: left;
     font-size: 300%;
     font-weight: 900;
+    margin-left: 20px;
 }
+
+#menu {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#menu li {
+    list-style: none;
+    margin: 0 30px;
+    position: relative;
+    float: right;
+    font-weight: 600;
+}
+
+#menu, #logo {
+    line-height: 100px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #404040
+}
+
+#menu a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #0378A6;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    transition: 0.5s;
+}
+
+#menu a:hover::after{
+    width: 100%;
 
 
