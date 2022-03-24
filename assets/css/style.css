@@ -136,10 +136,20 @@ h1, h2 {
 }
 .date {
     background-color: red;
+    float: left;
+    width: 44%;
+    margin: 50px 15px 30px;
+    padding-top: 33px;
+    text-align: center;
 }
 
 .event {
     background-color: blue;
+    float: right;
+    width: 44%;
+    margin: 50px 15px 30px;
+    padding-top: 33px;
+    text-align: center;
 }
 
 @keyframes fade-in { 
