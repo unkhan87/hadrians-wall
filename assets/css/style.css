@@ -75,7 +75,12 @@ h1, h2 {
     overflow: hidden;
 }
 
-/* Second section how it all began*/
+/* intro section */
+
+#intro {
+    height: 600px;
+}
+
 #beginning {
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -89,8 +94,18 @@ h1, h2 {
     font-weight: 1200px;
 }
 
-/* hadrian image position and setup*/
 #hadrian-img {
-    background: url('../css/images/emperor-hadrian.jpg');
-    width: 800px;
+    background-color: blue;
+    width: 44%;
+    float: left;
+    padding-top: 30px;
+    margin: 50px 10px 20px;
+}
+
+#text-right {
+    background-color: red;
+    width: 44%;
+    float: right;
+    padding-top: 30px;
+    margin: 50px 10px 20px;
 }
