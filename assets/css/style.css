@@ -95,17 +95,32 @@ h1, h2 {
 }
 
 #hadrian-img {
-    background-color: blue;
+    /*background-color: blue;*/
     width: 44%;
     float: left;
-    padding-top: 30px;
-    margin: 50px 10px 20px;
+    padding-top: 32%;
+    margin: 50px 20px 20px;
+    background: url('../css/images/hadrian-emperor\ 2.jpg');
+    background-size: cover;
+    box-shadow: -40px 30px 30px rgba(0,0,0,0.3);
+    animation: fade-in ease-in .7s forwards;
 }
 
 #text-right {
-    background-color: red;
+    /*background-color: red;*/
     width: 44%;
     float: right;
     padding-top: 30px;
-    margin: 50px 10px 20px;
+    margin: 100px 30px 20px;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+}
+
+@keyframes fade-in { 
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+}
 }
