@@ -74,3 +74,23 @@ h1, h2 {
     background-repeat: no-repeat;
     overflow: hidden;
 }
+
+/* Second section how it all began*/
+#beginning {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-right: auto;
+    margin-left: auto;
+    font: Roboto Slab, 'sans-serif';
+    color: #1F2426;
+    font-size: 200%;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 1200px;
+}
+
+/* hadrian image position and setup*/
+#hadrian-img {
+    background: url('../css/images/emperor-hadrian.jpg');
+    width: 800px;
+}
