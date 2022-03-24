@@ -116,6 +116,32 @@ h1, h2 {
     line-height: 1.6;
 }
 
+/* Wall Timeline*/
+
+#timeline {
+    height: 800px;
+}
+
+#events-head{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-right: auto;
+    margin-left: auto;
+    font: Roboto Slab, 'sans-serif';
+    color: #1F2426;
+    font-size: 200%;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 1200px;
+}
+.date {
+    background-color: red;
+}
+
+.event {
+    background-color: blue;
+}
+
 @keyframes fade-in { 
 from {
     opacity: 0;
