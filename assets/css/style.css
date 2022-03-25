@@ -152,6 +152,15 @@ h1, h2 {
     text-align: center;
 }
 
+.connect-line {
+    background-color: green;
+    width: 5px;
+    margin: 120px 50% -20px;
+    padding-top: 30px;
+    height: 100px;
+    text-align: center;
+}
+
 @keyframes fade-in { 
 from {
     opacity: 0;
