@@ -119,7 +119,7 @@ h1, h2 {
 /* Wall Timeline*/
 
 #timeline {
-    height: 800px;
+    
 }
 
 #events-head{
@@ -130,36 +130,36 @@ h1, h2 {
     font: Roboto Slab, 'sans-serif';
     color: #1F2426;
     font-size: 200%;
-    margin-top: 50px;
+    margin-top: 200px;
     text-align: center;
     font-weight: 1200px;
+    margin-bottom: 50px;
 }
-.date {
-    background-color: red;
-    float: left;
+
+.timeline-container {
+    display: flex;
+    background-color: aquamarine;
+    justify-content: flex-start;
+}
+
+.line-item {
+    width: 200px;
+    margin: 10px;
+    background-color: bisque;
+    border: 3px solid black;
     width: 33%;
-    margin: 50px 15px 30px;
-    padding-top: 33px;
-    text-align: center;
+}
+
+.date {
+    /*background-color: red;*/
 }
 
 .event {
-    background-color: blue;
-    float: right;
-    width: 33%;
-    margin: 50px 15px 30px;
-    padding-top: 33px;
-    text-align: center;
+    /*background-color: blue;*/
 }
 
 .connect-line {
-    background-color: green;
-    width: 5px;
-    margin: 50px 50% -10px;
-    padding-top: 30px;
-    height: 100px;
-    text-align: center;
-    position: absolute;
+   /*background-color: green;*/
 }
 
 @keyframes fade-in { 
