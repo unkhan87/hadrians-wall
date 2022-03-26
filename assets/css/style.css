@@ -140,6 +140,7 @@ h1, h2 {
     display: flex;
     /*background-color: aquamarine;*/
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .line-item {
@@ -148,7 +149,7 @@ h1, h2 {
 }
 
 .date {
-    /*background-color: red;*/
+    background-color: red;
     width: 33%;
     margin: 50px 15px 20px;
     text-align: center;
@@ -161,7 +162,7 @@ h1, h2 {
 }
 
 .event {
-    /*background-color: blue;*/
+    background-color: blue;
     width: 33%;
     margin: 50px 15px 20px;
     text-align: center;
