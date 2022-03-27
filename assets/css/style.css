@@ -103,7 +103,8 @@ h1, h2 {
     background: url('../css/images/hadrian-emperor\ 2.jpg');
     background-size: cover;
     box-shadow: -40px 30px 30px rgba(0,0,0,0.3);
-    animation: fade-in ease-in .7s forwards;
+    animation: fade-in ease-in;
+    animation-duration: 5s;
 }
 
 #text-right {
@@ -149,7 +150,7 @@ h1, h2 {
 }
 
 .date {
-    background-color: red;
+    /*background-color: red;*/
     width: 33%;
     margin: 50px 15px 20px;
     text-align: center;
@@ -162,7 +163,7 @@ h1, h2 {
 }
 
 .event {
-    background-color: blue;
+    /*background-color: blue;*/
     width: 33%;
     margin: 50px 15px 20px;
     text-align: center;
@@ -174,10 +175,13 @@ h1, h2 {
 }
 
 .connect-line {
-   background-color: green;
+   background: linear-gradient(#0378A6,#283540);
    width: 10px;
    margin: 30px 10px 20px;
    height: 150px;
+   animation: fade-in ease-in .8s forwards;
+   animation-delay: 2s;
+   animation-duration: 8s;
 }
 
 @keyframes fade-in { 
