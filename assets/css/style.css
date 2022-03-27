@@ -131,7 +131,7 @@ h1, h2 {
     font: Roboto Slab, 'sans-serif';
     color: #1F2426;
     font-size: 200%;
-    margin-top: 200px;
+    margin-top: 150px;
     text-align: center;
     font-weight: 1200px;
     margin-bottom: 20px;
@@ -183,6 +183,13 @@ h1, h2 {
    animation-delay: 2s;
    animation-duration: 8s;
 }
+
+/* footer */
+
+footer {
+    height: 180px
+}
+
 
 @keyframes fade-in { 
 from {
