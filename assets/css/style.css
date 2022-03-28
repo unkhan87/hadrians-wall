@@ -89,7 +89,7 @@ h1, h2 {
     font: Roboto Slab, 'sans-serif';
     color: #1F2426;
     font-size: 50px;
-    margin-top: 150px;
+    margin-top: 100px;
     text-align: center;
     font-weight: 1200px;
 }
@@ -190,6 +190,20 @@ footer {
     height: 180px
 }
 
+.social-icons{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.social-icons > li {
+    display: inline;
+}
+
+.social-icons i {
+    color: #404040;
+    font-size: 250%;
+    padding: 30px 5% 30px;
+}
 
 @keyframes fade-in { 
 from {
