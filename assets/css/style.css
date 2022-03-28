@@ -214,11 +214,32 @@ h1, h2 {
     color: #D9D9D9;
     text-align: center;
     position: relative;
-    top: 50%;
+    top: 30%;
     transform: translateY(-50%);
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 200px;
 }
+
+/*various sites section*/
+
+#sites {
+    clear: both;
+    margin-top: 150px;
+    display: flex;
+}
+
+.site-heading {
+    background-color: green;
+}
+
+.site-image {
+    background-color: blue;
+}
+
+.site-description {
+    background-color: yellowgreen;
+}
+
 
 /* footer */
 
