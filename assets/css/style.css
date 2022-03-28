@@ -184,6 +184,26 @@ h1, h2 {
    animation-duration: 8s;
 }
 
+/* things to do main */
+
+#main-visit {
+    clear: both;
+}
+
+#main-visit-content {
+    background-color: black;
+    float: left;
+    width: 40%;
+    height: 300px;
+}
+
+#main-visit-image {
+    background-color: blue;
+    float: right;
+    width: 60%;
+    height: 300px;
+}
+
 /* footer */
 
 footer {
