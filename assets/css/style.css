@@ -188,6 +188,8 @@ h1, h2 {
 
 #main-visit {
     clear: both;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 #main-visit-content {
