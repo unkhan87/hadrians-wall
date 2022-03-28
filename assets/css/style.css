@@ -190,6 +190,7 @@ h1, h2 {
     clear: both;
     width: 1200px;
     margin: 0 auto;
+    height: 500px;
 }
 
 #main-visit-content {
@@ -222,22 +223,32 @@ h1, h2 {
 
 /*various sites section*/
 
-#sites {
-    clear: both;
-    margin-top: 150px;
-    display: flex;
+.sites-heading {
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: center;
 }
 
-.site-heading {
-    background-color: green;
-}
-
-.site-image {
+.sites-image {
     background-color: blue;
+    float: left;
+    width: 55%;
+    margin: 5px 30px;
 }
 
-.site-description {
+.sites-description {
     background-color: yellowgreen;
+    float: right;
+    width: 35%;
+    margin: 5px 30px;
+}
+
+.sites-heading h2 {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 900px;
 }
 
 
