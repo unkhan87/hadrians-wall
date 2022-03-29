@@ -283,6 +283,22 @@ footer {
     padding: 30px 5% 30px;
 }
 
+/*Contact Us Form*/
+
+#contactus-form {
+    clear: both;
+    height: 500px;
+}
+
+#contactus-form h2 {
+    padding: 100px;
+    text-align: center;
+}
+
+.basic-info {
+    margin: 10px 30px;
+}
+
 @keyframes fade-in { 
 from {
     opacity: 0;
