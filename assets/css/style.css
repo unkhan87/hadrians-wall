@@ -223,28 +223,21 @@ h1, h2 {
 
 /*various sites section*/
 
-.sites-heading {
-    margin-top: 70px;
-    margin-left: 30px;
-    margin-right: 30px;
-    align-items: center;
+#visit-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-#sites-image-housesteads {
-    background-color: blue;
-    float: left;
-    width: 44%;
-    margin: 20px 10px;
-    background-image: url('../css/images/Housesteads-Roman-Fort.jpg');
-    background-size: cover;
-    height: 350px;
+#visit-heading-one {
+background-color: blue;
 }
 
-.sites-description {
-    float: right;
-    width: 44%;
-    margin: 30px 10px;
-    height: 350px;
+#visit-image-one {
+background-color: green;
+}
+
+#visit-item-one {
+background-color: yellow;
 }
 
 .sites-description p {
