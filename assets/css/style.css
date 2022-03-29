@@ -287,14 +287,20 @@ footer {
 
 #contactus-form {
     clear: both;
-    height: 500px;
-    width: 50%;
-    margin: 20px auto;
+    height: 900px;
+    margin: 40px auto;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-size: cover;
+    background-position: center;
+    background: url('../css/images/background-contact-form.jpg');
+    }
 
+form {
+    max-width: 50%;
+    background-color:rgba(242, 242, 242, 0.1);
 }
 
 #contactus-form h2 {
@@ -304,7 +310,7 @@ footer {
 }
 
 .field-input {
-    margin: 10px 0 10px 0;
+    margin: 10px 0 10px 10px;
     color: black;
     width: 50%;
     height: 25px;
@@ -320,27 +326,28 @@ footer {
 }
 
 .box-message {
-    margin: 10px 0 10px 0;
-    padding: 10px;
+    margin: 20px 0 10px 180px;
     font-weight: bold;
     position: relative;
+    text-align: left;
 }
 
 .message-input {
-    margin: 5px 0px 10px 0;
+    margin: 5px 0px 10px 10px;
     color: black;
     width: 50%;
     height: 90px;
     border: 1px solid black;
     border-radius: 2px;
     padding: 0 auto;
+    position: absolute;
 }
 
 .submit-request {
     width: 100px;
     padding: 15px 0;
     text-align: center;
-    margin: 20px 10px;
+    margin: 100px 10px;
     font-weight: bold;
     border: 2px solid #0378A6;
     cursor: pointer;
