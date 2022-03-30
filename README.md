@@ -6,7 +6,10 @@ The aim of the website is to provide the users with one of the most iconic landm
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The website is divided into three different page.
+* HomePage - Documents an Introduction section and Timeline of events.
+* Things to see - Gives basic information rearding the different sites of the Hadrian's wall.
+* Contact Us - This is where user has a oppurtunity to contact a specialist if they have any question regarding the vist.
 
 ### Existing Features
 
