@@ -276,7 +276,9 @@ footer {
     text-align: center;
     background-size: cover;
     background-position: center;
-    background: url('../css/images/background-contact-form.jpg');
+    background: url('../css/images/background-contact-form.jpg') center center;
+    background-attachment: fixed;
+    padding-bottom: 50px;
     }
 
 form {
@@ -308,6 +310,11 @@ form {
     color: #D9D9D9;
 }
 
+.basic-info label{
+    display: inline-block;
+    width: 100px;
+}
+
 .box-message {
     margin: 20px 0 10px 180px;
     font-weight: bold;
@@ -337,6 +344,7 @@ form {
     cursor: pointer;
     background: transparent;
     border-radius: 25px;
+    color: #D9D9D9;
 }
 
 .submit-request:hover {

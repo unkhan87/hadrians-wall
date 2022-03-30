@@ -59,7 +59,7 @@ The website is divided into three different page.
 
 ![Things to see](assets/css/images/screenshot-things-to-see.png)
 
-- __The Sign Up Page__
+- __Contact Us__
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
