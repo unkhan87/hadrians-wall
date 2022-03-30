@@ -2,7 +2,7 @@
 
 The aim of the website is to provide the users with one of the most iconic landmark based in the North East of England. THe website attempt to explore why the wall was build at the first place and the events leading in to building this wall. The website will be interest to anyone who is planning to visit the Hadrian's wall in order to get knowledge regarding this landmark beforehand.
 
-![Hero image with navbar on the home page](assets/css/images/screenshot-main-section.png)
+![Hero image with navbar on the home page](assets/css/images/screenshot-landing-page.png)
 
 ## Features 
 
@@ -19,14 +19,14 @@ The website is divided into three different page.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
   - For guidance and interactive reasons the navigation links have got a animation line beneath it that tells the users what section they have selected.  
 
-![Nav Bar](assets/css/images/screenshot-nav-bar.png)
+![Nav Bar](assets/css/images/Screenshot-navbar.png)
 
 - __The landing page image__
 
   - The landing page includes a photograph showing the a section of the wall. 
   - The image was chosen with careful consideration to the theme color I want to implement on the page.
 
-![Landing Page Image](assets/css/images/screenshot-main-section.png)
+![Landing Page Image](assets/css/images/screenshot-landing-page.png)
 
 - __How Did it All Start Section__
 
@@ -59,19 +59,21 @@ The website is divided into three different page.
 
 ![Things to see](assets/css/images/screenshot-things-to-see.png)
 
-- __Contact Us__
+- __Sign Up__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to get signed up to receive latest news and upcoming events.  
+  - The user will be asked to submit their first and last name and email address. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Sign Up](assets/css/images/screenshot-signup-page.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
-- Another feature idea
+- Some of the ideas for the future are
+  * Intercative Hadrian wall map.
+  * Section for upcoming events.
+  * Info about Cycling Routes
+  * Info about Hiking Trails
 
 ## Testing 
 
