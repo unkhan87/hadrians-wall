@@ -2,7 +2,7 @@
 
 The aim of the website is to provide the users with one of the most iconic landmark based in the North East of England. THe website attempt to explore why the wall was build at the first place and the events leading in to building this wall. The website will be interest to anyone who is planning to visit the Hadrian's wall in order to get knowledge regarding this landmark beforehand.
 
-![Responsice Mockup](assets/css/images/screenshot-main-section.png)
+![Hero image with navbar on the home page](assets/css/images/screenshot-main-section.png)
 
 ## Features 
 
@@ -15,45 +15,49 @@ The website is divided into three different page.
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Things to See and Contact Us page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+  - For guidance and interactive reasons the navigation links have got a animation line beneath it that tells the users what section they have selected.  
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](assets/css/images/screenshot-nav-bar.png)
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing page includes a photograph showing the a section of the wall. 
+  - The image was chosen with careful consideration to the theme color I want to implement on the page.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page Image](assets/css/images/screenshot-main-section.png)
 
-- __Club Ethos Section__
+- __How Did it All Start Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - This section will allow the users with a brief background of the wall 'How it All Started" and when and why was the built. 
+  - This particlar section has been divided into two areas.
+    * The introduction/ background area for the wall. 
+    * And the emperor Hadrians' image that fades in when the landing page is loaded.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![How did it all start](assets/css//images/screenshot-for-intro-section.png)
 
-- __Meetup Times section__
+- __Timeline Section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section emphasize on the events that took place leading to the wall and after the wall was built. 
+  - The section gives a very brief summary in a timeline fashion to the users regarding the events that took place and at what dates.
+  - This section again have been animated in order to capture user's attention.   
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Timeline](assets/css/images/screenshot-timeline%201.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media and keep up to date with the upcomng events.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](assets/css/images/screenshot-footer.png)
 
-- __Gallery__
+- __Things to See__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - This page will provide the user with a information regarding the historic sites they can visit on hadrians wall. 
+  - This will be valuable to the user as they can plan their visit to this historic place beforehand.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Things to see](assets/css/images/screenshot-things-to-see.png)
 
 - __The Sign Up Page__
 
