@@ -221,25 +221,6 @@ h1, h2 {
     font-weight: 200px;
 }
 
-/*various sites section*/
-
-#visit-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-#visit-heading-one {
-background-color: blue;
-}
-
-#visit-image-one {
-background-color: green;
-}
-
-#visit-item-one {
-background-color: yellow;
-}
-
 .sites-description p {
     margin: 0;
     padding: 5px 10px;
@@ -401,6 +382,8 @@ to {
         margin: 0 auto;
         float: left;
     }
+
+   
 }
 /* For screen sizes below 970px */
     @media screen and (max-width: 970px) {
@@ -418,43 +401,73 @@ to {
 
         #intro {
             width: 90%;
-            height: 900px;
+            height: 700px;
             margin: 0 auto;
+        }
+
+         
+
+         #main-visit {
+            width: 800px;
+            height: 800px;
+            margin: 0 auto;
+        }
+
+        #main-visit-image, #main-visit-content {
+            width: 100%;
+            padding: 0;
+            float: left;
+            clear: both;
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
+
+    /*New media query for time line section below 700px*/
+    @media screen and (max-width: 700px) { 
+        
+        #text-right, #hadrian-image {
+            height: 400px;
         }
 
         #timeline {
-            width: 100%;
-            text-align: center;
-        }
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        clear: both;
+    }
 
-       .date {
-            width: 100%;
-            margin: 0 auto;
-            text-align: center;
-            padding-top: 50px;
-            align-items: center;
-            justify-content: center;
-        }
+    #timeline-container {
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 
-        .connect-line {
-            width: 10px;
-            margin: 0 auto;
-            height: 20px;
-            animation: fade-in ease-in .8s forwards;
-            animation-delay: 2s;
-            animation-duration: 8s;
-            align-items: center;
-            justify-content: center;
-            padding: 50px 0;
-         }
+   .date {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 50px;
+        align-items: center;
+        justify-content: center;
+    }
 
-         .event {
-            /*background-color: blue;*/
-            width: 100%;
-            margin: 0 5px;
-            text-align: center;
-            padding-top: 10px;
-            align-items: center;
-            justify-content: center;
-         }   
+    .connect-line {
+        width: 10px;
+        margin-right: 7%;
+        height: 20px;
+        animation: fade-in ease-in .8s forwards;
+        padding: 20px 0;
+     }
+
+     .event {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 10px;
+        align-items: center;
+        justify-content: center;
+     } 
+
     }
