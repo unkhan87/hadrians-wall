@@ -471,3 +471,10 @@ to {
             height: 400px;
         }
     }
+
+    /* media query for screen sizes below 370px for mobile8 */
+    @media screen and (max-width: 370px) {
+        #intro {
+            height: 500px;
+        }
+    } 
