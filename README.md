@@ -41,9 +41,11 @@ The website is divided into three different page.
 
   - This section emphasize on the events that took place leading to the wall and after the wall was built. 
   - The section gives a very brief summary in a timeline fashion to the users regarding the events that took place and at what dates.
-  - This section again have been animated in order to capture user's attention.   
+  - This section again have been animated in order to capture user's attention.  
+  - I had to restrusture this section and aligned the items vertically instead of horizantally once the screen size drops below 700px. So as to keep the structure of the page intact. Please see the screen shot below. 
 
 ![Timeline](assets/css/images/screenshot-timeline%201.png)
+![Timeline if screen size below 700px](assets/css/images/vertical-timeline.png)
 
 - __The Footer__ 
 
@@ -70,14 +72,19 @@ The website is divided into three different page.
 ### Features Left to Implement
 
 - Some of the ideas for the future are
-  * Intercative Hadrian wall map.
+  * Interactive Hadrian wall map.
   * Section for upcoming events.
-  * Info about Cycling Routes
-  * Info about Hiking Trails
+  * Introduce interactive maps for cycling routes and highking trails.
+  * Currently by the clicking the Sign Up button on the Sign-Up page does not lead to anywhere. In future I would like to implement a functionality where the users get the confirmation email regarding the signing up.
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+As the technology that was used to create the website in with HTML and CSS it was imperative to check the webiste in different browsers. For this reason I selected three different browsers (google Chrome, Microsoft Edge and Mozilla Firefox).
+
+I have also checked the website for features like SEO, Accessibility and Validation. PLease see results below.
+
+![Lighthouse results](assets/css/images/light-house%20screen%20shot%201.png)
+
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
@@ -91,7 +98,7 @@ If this section grows too long, you may want to split it off into a separate fil
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Funkhan87.github.io%2Fhadrians-wall%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing through the official [(Jigsaw) validator](assets/css/images/css-validator.png)
 
 ### Unfixed Bugs
 
@@ -130,28 +137,12 @@ As this project is based on the historical events I had to heavily rely on exter
 - The hadrians image was taken from [Hadirans' Image] (https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britishmuseum.org%2Fcollection%2Fobject%2FH_1848-1103-1&psig=AOvVaw2rtY5yFDocp_zZECchVX1q&ust=1648815660130000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICLnZKr8PYCFQAAAAAdAAAAABAK)
 - The images used "Things to see Section" was taken from [Visit Hadrians' Wall](https://ichef.bbci.co.uk/news/1024/branded_news/0870/production/_121306120_mediaitem121306118.jpg)
 - The background image on the "Sign Up" page was taken from [Visit Northumberland](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.visitnorthumberland.com%2Fexplore%2Fdestinations%2Fhistorical-sites%2Fhadrians-wall%2Fscenic-sections&psig=AOvVaw0C5Zlebra7asYV2GKczOEN&ust=1648816154929000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCND78YGt8PYCFQAAAAAdAAAAABAH)
+ 
 
 ## Techonolgies Used
 
-- Adobe color
-- Fownt Awesome
-- Color-Hex (https://www.color-hex.com/)
+- Adobe color - research my color theme for the website.
+- Font Awesome - used it to embed different icons on the website.
+- Color-Hex (https://www.color-hex.com/) - In order to get the HEX codes.
+- Google fonts - The fonts imported on the website is through google fonts
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
