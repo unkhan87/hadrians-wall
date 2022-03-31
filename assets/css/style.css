@@ -1,3 +1,4 @@
+/*imported fonts to be used from google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Slab:wght@300&display=swap');
 
 * {
@@ -6,12 +7,14 @@
     border: none;
 }
 
+/*setup default body font color and weight*/
 body {
     font-family: lato, sans-serif;
     font-weight: 300;
     color: #404040;
 }
 
+/*default styling for h elements*/
 h1, h2 {
     font: 'Roboto Slab', sans-serif;
     text-decoration: none;
@@ -20,7 +23,7 @@ h1, h2 {
     color: #1F2426;
 }
 
-/* styling logo and menu */
+/* styling logo and nav bar animation */
 #logo {
     float: left;
     font-size: 300%;
@@ -94,8 +97,9 @@ h1, h2 {
     font-weight: 1200px;
 }
 
+/* aligining image on the left and content on the right*/
+
 #hadrian-img {
-    /*background-color: blue;*/
     width: 44%;
     float: left;
     padding-top: 32%;
@@ -108,7 +112,6 @@ h1, h2 {
 }
 
 #text-right {
-    /*background-color: red;*/
     width: 44%;
     float: right;
     padding-top: 30px;
@@ -118,10 +121,6 @@ h1, h2 {
 }
 
 /* Wall Timeline*/
-
-/*#timeline {
-    
-}*/
 
 #events-head{
     letter-spacing: 3px;
@@ -150,7 +149,6 @@ h1, h2 {
 }
 
 .date {
-    /*background-color: red;*/
     width: 33%;
     margin: 50px 15px 20px;
     text-align: center;
@@ -163,7 +161,6 @@ h1, h2 {
 }
 
 .event {
-    /*background-color: blue;*/
     width: 33%;
     margin: 50px 15px 20px;
     text-align: center;
@@ -184,7 +181,7 @@ h1, h2 {
    animation-duration: 8s;
 }
 
-/* things to do main */
+/* things to see main */
 
 #main-visit {
     clear: both;
@@ -193,6 +190,7 @@ h1, h2 {
     height: 500px;
 }
 
+/*Styling the content and image box*/
 #main-visit-content {
     background-color: #2B3440;
     float: left;
@@ -201,7 +199,6 @@ h1, h2 {
 }
 
 #main-visit-image {
-    /*background-color: blue;*/
     background: url('../css/images/visit-wall-2.jpg');
     float: right;
     width: 60%;
@@ -240,8 +237,6 @@ h1, h2 {
     line-height: 5px;
     font-size: 40px;
 }
-
-
 
 /* footer */
 
@@ -351,6 +346,7 @@ form {
     background-color: #0378A6;
 }
 
+/*animation for timeline section*/
 @keyframes fade-in { 
 from {
     opacity: 0;
