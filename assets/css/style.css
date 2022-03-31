@@ -472,9 +472,18 @@ to {
         }
     }
 
-    /* media query for screen sizes below 370px for mobile8 */
+    /* media query for screen sizes below 370px for mobile */
     @media screen and (max-width: 370px) {
-        #intro {
+        #text-right {
             height: 500px;
+        }
+        #main-visit-content {
+            width: 370px;
+        }
+        #main-visit {
+            width: 370px;
+        }
+        #main-visit-image {
+            max-width: 100%;
         }
     } 
