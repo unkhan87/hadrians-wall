@@ -111,21 +111,31 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+The structure of my website was inspired by the Code Institute's Love Running Project. I did this because i felt that the Love Running Project website was very engaging and the structure of it was modern. The aim of the home page is to give instant knowledge to the user regarding Hadrian wall and to give interactivity to my home page in order to attract their attention.
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+As this project is based on the historical events I had to heavily rely on external sources to get the images and content for this website.
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The text for the "How it all start" was taken from English Heritage webiste [History of Hadrians' Wall](https://www.english-heritage.org.uk/visit/places/hadrians-wall/hadrians-wall-history-and-stories/history/#:~:text=It%20was%20built%20by%20the,on%2DSolway%20in%20the%20west) 
+- "The Wall Timeline" section was taken from England's North East website [Hadrians' Wall Timeline] (https://englandsnortheast.co.uk/hadrians-wall-timeline-122-180/)
+- The content for Things to See section was taken from English Heritage webiste [Places to Visit] (https://www.english-heritage.org.uk/visit/places/hadrians-wall/)
+- Instructions on how to implement the fade in animation was taken from W3C website [W3CSS Animation](https://www.w3schools.com/w3css/w3css_animate.asp)
+- Instructions on how to animate the line under the text was taken form [Youtube Tutorial](https://www.youtube.com/watch?v=aswRKAjjWuE) 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- I would like to thank Toa Heftiba for the amazing picture that I used as a hero image on my project[Unsplash](https://unsplash.com/photos/Tc0C9_XIo30)
+- The hadrians image was taken from [Hadirans' Image] (https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britishmuseum.org%2Fcollection%2Fobject%2FH_1848-1103-1&psig=AOvVaw2rtY5yFDocp_zZECchVX1q&ust=1648815660130000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICLnZKr8PYCFQAAAAAdAAAAABAK)
+- The images used "Things to see Section" was taken from [Visit Hadrians' Wall](https://ichef.bbci.co.uk/news/1024/branded_news/0870/production/_121306120_mediaitem121306118.jpg)
+- The background image on the "Sign Up" page was taken from [Visit Northumberland](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.visitnorthumberland.com%2Fexplore%2Fdestinations%2Fhistorical-sites%2Fhadrians-wall%2Fscenic-sections&psig=AOvVaw0C5Zlebra7asYV2GKczOEN&ust=1648816154929000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCND78YGt8PYCFQAAAAAdAAAAABAH)
 
+## Techonolgies Used
+
+- Adobe color
+- Fownt Awesome
+- Color-Hex (https://www.color-hex.com/)
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
