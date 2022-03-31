@@ -363,7 +363,7 @@ to {
 /* Media Queries */
 
 /* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
     #intro {
         width: 65%;
         margin: 0px auto;
@@ -478,4 +478,11 @@ to {
         justify-content: center;
      } 
 
+    }
+
+    /*Media query for timeline below 1200px for laptop*/
+    @media screen and (max-width: 1200px) {
+        #intro {
+            height: 400px;
+        }
     }
