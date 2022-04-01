@@ -2,7 +2,7 @@
 
 The aim of the website is to provide the users with one of the most iconic landmark based in the North East of England. The website attempt to explore why the wall was build and the events leading in to building this wall. The website will be of interest to anyone who is planning to visit the Hadrian's wall in order to get knowledge regarding this landmark beforehand.
 
-![Hero image with navbar on the home page](assets/docs/screenshot-landing-page.png)
+![Hero image with navbar on the home page](assets/docs/landing-page.png)
 
 ## Features 
 
@@ -20,14 +20,14 @@ The website is divided into three different page.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
   - For guidance and interactive reasons the navigation links have got a animation line beneath it that tells the users what section they have selected.  
 
-![Nav Bar](assets/docs/Screenshot-navbar.png)
+![Nav Bar](assets/docs/nav-bar.png)
 
 - __The landing page image__
 
   - The landing page includes a photograph showing the a section of the wall. 
   - The image was chosen with careful consideration to the color theme I want to implement on the page.
 
-![Landing Page Image](assets/docs/screenshot-landing-page.png)
+![Landing Page Image](assets/docs/landing-page.png)
 
 - __How Did it All Start Section__
 
@@ -36,7 +36,7 @@ The website is divided into three different page.
     * The introduction/ background area for the wall. 
     * And the emperor Hadrians' image that fades in when the landing page is loaded.
 
-![How did it all start](assets/docs/screenshot-for-intro-section.png)
+![How did it all start](assets/docs/intro-section.png)
 
 - __Timeline Section__
 
@@ -45,7 +45,7 @@ The website is divided into three different page.
   - This section again have been animated in order to capture user's attention.  
   - I had to restructure this section and aligned the items vertically instead of horizantally once the screen size drops below 700px, so as to keep the structure of the page intact. Please see the screen shot below. 
 
-![Timeline](assets/docs/screenshot-timeline%201.png)
+![Timeline](assets/docs/wall-timeline.png)
 ![Timeline if screen size below 700px](assets/docs/vertical-timeline.png)
 
 - __The Footer__ 
@@ -67,7 +67,7 @@ The website is divided into three different page.
   - This page will allow the user to get signed up to receive latest news and upcoming events.  
   - The user will be asked to submit their first and last name and email address. 
 
-![Sign Up](assets/docs/screenshot-signup-page.png)
+![Sign Up](assets/docs/sign-up-page.png)
 
 
 ### Features Left to Implement
@@ -144,6 +144,5 @@ As this project is based on the historical events I had to heavily rely on exter
 - Chrome Dev Tools - This has been a major help when it came to aligning my content on different screen sizes.
 
 ## Acknowledgement
-- I Want to thank fellow student Henry Leon for his help throughout this project.
-- I Want to thank slack community for posting some really valuable information on the slack channel.  
+- I want to thank fellow student Henry Leon for his help throughout this project, slack community for posting some very valuable information on the channel and my mentor for his time.
 
