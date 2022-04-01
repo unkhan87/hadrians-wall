@@ -1,6 +1,6 @@
 # Hadrian's Wall
 
-The aim of the website is to provide the users with one of the most iconic landmark based in the North East of England. The website attempt to explore why the wall was build and the events leading in to building this wall. The website will be of interest to anyone who is planning to visit the Hadrian's wall in order to get knowledge regarding this landmark beforehand.
+The aim of the website is to provide the users with one of the most iconic landmark based in the North East of England. The website attempt to explore why the wall was built and the events leading in to building this wall. The website will be of interest to anyone who is planning to visit Hadrian's wall in order to get knowledge regarding this landmark beforehand.
 
 ![Hero image with navbar on the home page](assets/docs/landing-page.png)
 
@@ -31,7 +31,7 @@ The website is divided into three different page.
 
 - __How Did it All Start Section__
 
-  - This section will allow the users with a brief background of the wall 'How it All Started" and when and why was it built. 
+  - This section will provide the users with a brief background of the wall 'How it All Started" and when and why was it built. 
   - This particlar section has been divided into two areas.
     * The introduction/ background area for the wall. 
     * And the emperor Hadrians' image that fades in when the landing page is loaded.
@@ -40,9 +40,9 @@ The website is divided into three different page.
 
 - __Timeline Section__
 
-  - This section emphasize on the events that took place leading to the wall and after the wall was built. 
+  - This section focuses on the events that took place leading up to the wall being built and after the wall was built. 
   - The section gives a very brief summary in a timeline fashion to the users regarding the events that took place and at what dates.
-  - This section again have been animated in order to capture user's attention.  
+  - This section again has been animated in order to capture the user's attention.  
   - I had to restructure this section and aligned the items vertically instead of horizantally once the screen size drops below 700px, so as to keep the structure of the page intact. Please see the screen shot below. 
 
 ![Timeline](assets/docs/wall-timeline.png)
@@ -80,9 +80,9 @@ The website is divided into three different page.
 
 ## Testing 
 
-It was imperative to check the website in different browser to check how does it function and if still supports the different browser features. For this reason the website was check on Microsoft Edge, Mozilla Firefox and Google Chrome to ensure the website functionality is not compromised. 
+It was imperative to check the website in different browsers to check how does it function and if still supports the different browser features. For this reason the website was checked on Microsoft Edge, Mozilla Firefox and Google Chrome to ensure the website functionality is not compromised. 
 
-I have also checked the website for features like SEO, Accessibility and Validation. PLease see results below.
+I have also checked the website for features like SEO, Accessibility and Validation. Please see results below.
 
 ![Lighthouse results](assets/docs/light-house%20screen%20shot%201.png)
 
@@ -98,7 +98,7 @@ On HTML code validation through Markup Validation Service. I had two bugs (which
 
 ### Unfixed Bugs
 
-When the ran the code through Markup Validation Service it came back with a warning message "Section Lacks heading. Consider using (h2-h6) elements. However, section that its giving a warning message for is an image and I beleive the section itself does not require heading as that will disturb the flow of the website and the user will confuse the user. 
+When I ran the code through Markup Validation Service it came back with a warning message "Section Lacks heading. Consider using (h2-h6) elements. However, section that its giving a warning message for is an image and I beleive the section itself does not require heading as that will disturb the flow of the website and the user will confuse the user. 
 
 ## Deployment
 
@@ -114,9 +114,9 @@ The live link can be found here - https://unkhan87.github.io/hadrians-wall/index
 
 ## Credits 
 
-The structure of my website was inspired by the Code Institute's Love Running Project. I did this because i felt that the Love Running Project website was very engaging and the structure of it was modern. The aim of the home page is to give instant knowledge to the user regarding Hadrian wall and to give interactivity to my home page in order to attract their attention.
+The structure of my website was inspired by the Code Institute's Love Running Project. I did this because i felt that the Love Running Project website was very engaging and the structure of it was modern. The aim of the home page is to give instant knowledge to the user regarding Hadrians wall and to give interactivity to my home page in order to attract their attention.
 
-As this project is based on the historical events I had to heavily rely on external sources to get the images and content for this website.
+As this project is based on historical events I had to heavily rely on external sources to get the images and content for this website.
 
 ### Content 
 
