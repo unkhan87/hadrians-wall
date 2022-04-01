@@ -141,4 +141,9 @@ As this project is based on the historical events I had to heavily rely on exter
 - Font Awesome - used it to embed different icons on the website.
 - Color-Hex (https://www.color-hex.com/) - In order to get the HEX codes.
 - Google fonts - The fonts imported on the website is through google fonts
+- Chrome Dev Tools - This has been a major help when it came to aligning my content on different screen sizes.
+
+## Acknowledgement
+- I Want to thank fellow student Henry Leon for his help throughout this project.
+- I Want to thank slack community for posting some really valuable information on the slack channel.  
 
