@@ -1,8 +1,8 @@
 # Hadrian's Wall
 
-The aim of the website is to provide the users with one of the most iconic landmark based in the North East of England. THe website attempt to explore why the wall was build at the first place and the events leading in to building this wall. The website will be interest to anyone who is planning to visit the Hadrian's wall in order to get knowledge regarding this landmark beforehand.
+The aim of the website is to provide the users with one of the most iconic landmark based in the North East of England. The website attempt to explore why the wall was build and the events leading in to building this wall. The website will be of interest to anyone who is planning to visit the Hadrian's wall in order to get knowledge regarding this landmark beforehand.
 
-![Hero image with navbar on the home page](assets/css/images/screenshot-landing-page.png)
+![Hero image with navbar on the home page](assets/docs/screenshot-landing-page.png)
 
 ## Features 
 
@@ -15,58 +15,59 @@ The website is divided into three different page.
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Things to See and Contact Us page and is identical in each page to allow for easy navigation.
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Things to See and Sign Up page and is identical in each page to allow easy navigation.
+  - Clicking on the logo will tae the user back to the home page.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
   - For guidance and interactive reasons the navigation links have got a animation line beneath it that tells the users what section they have selected.  
 
-![Nav Bar](assets/css/images/Screenshot-navbar.png)
+![Nav Bar](assets/docs/Screenshot-navbar.png)
 
 - __The landing page image__
 
   - The landing page includes a photograph showing the a section of the wall. 
-  - The image was chosen with careful consideration to the theme color I want to implement on the page.
+  - The image was chosen with careful consideration to the color theme I want to implement on the page.
 
-![Landing Page Image](assets/css/images/screenshot-landing-page.png)
+![Landing Page Image](assets/docs/screenshot-landing-page.png)
 
 - __How Did it All Start Section__
 
-  - This section will allow the users with a brief background of the wall 'How it All Started" and when and why was the built. 
+  - This section will allow the users with a brief background of the wall 'How it All Started" and when and why was it built. 
   - This particlar section has been divided into two areas.
     * The introduction/ background area for the wall. 
     * And the emperor Hadrians' image that fades in when the landing page is loaded.
 
-![How did it all start](assets/css//images/screenshot-for-intro-section.png)
+![How did it all start](assets/docs/screenshot-for-intro-section.png)
 
 - __Timeline Section__
 
   - This section emphasize on the events that took place leading to the wall and after the wall was built. 
   - The section gives a very brief summary in a timeline fashion to the users regarding the events that took place and at what dates.
   - This section again have been animated in order to capture user's attention.  
-  - I had to restrusture this section and aligned the items vertically instead of horizantally once the screen size drops below 700px. So as to keep the structure of the page intact. Please see the screen shot below. 
+  - I had to restructure this section and aligned the items vertically instead of horizantally once the screen size drops below 700px, so as to keep the structure of the page intact. Please see the screen shot below. 
 
-![Timeline](assets/css/images/screenshot-timeline%201.png)
-![Timeline if screen size below 700px](assets/css/images/vertical-timeline.png)
+![Timeline](assets/docs/screenshot-timeline%201.png)
+![Timeline if screen size below 700px](assets/docs/vertical-timeline.png)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media and keep up to date with the upcomng events.
 
-![Footer](assets/css/images/screenshot-footer.png)
+![Footer](assets/docs/screenshot-footer.png)
 
 - __Things to See__
 
   - This page will provide the user with a information regarding the historic sites they can visit on hadrians wall. 
   - This will be valuable to the user as they can plan their visit to this historic place beforehand.
 
-![Things to see](assets/css/images/screenshot-things-to-see.png)
+![Things to see](assets/docs/screenshot-things-to-see.png)
 
 - __Sign Up__
 
   - This page will allow the user to get signed up to receive latest news and upcoming events.  
   - The user will be asked to submit their first and last name and email address. 
 
-![Sign Up](assets/css/images/screenshot-signup-page.png)
+![Sign Up](assets/docs/screenshot-signup-page.png)
 
 
 ### Features Left to Implement
@@ -79,30 +80,25 @@ The website is divided into three different page.
 
 ## Testing 
 
-As the technology that was used to create the website in with HTML and CSS it was imperative to check the webiste in different browsers. For this reason I selected three different browsers (google Chrome, Microsoft Edge and Mozilla Firefox).
+It was imperative to check the website in different browser to check how does it function and if still supports the different browser features. For this reason the website was check on Microsoft Edge, Mozilla Firefox and Google Chrome to ensure the website functionality is not compromised. 
 
 I have also checked the website for features like SEO, Accessibility and Validation. PLease see results below.
 
-![Lighthouse results](assets/css/images/light-house%20screen%20shot%201.png)
+![Lighthouse results](assets/docs/light-house%20screen%20shot%201.png)
 
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+On HTML code validation through Markup Validation Service. I had two bugs (which are now resolved) and a warning message to include heading elements like h2-h6. However, the section is used for the Hero Image only and I believe inserting a heading would not be very engaging to the user.  
 
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - Two errors with one warning message. The errors are now resolved however as stated above I haven't address the warning messsage [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Funkhan87.github.io%2Fhadrians-wall%2Findex.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](assets/css/images/css-validator.png)
+  - 11 errors were found however they are now all resolved [(Jigsaw) validator](assets/docs/css-validator.png)
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+When the ran the code through Markup Validation Service it came back with a warning message "Section Lacks heading. Consider using (h2-h6) elements. However, section that its giving a warning message for is an image and I beleive the section itself does not require heading as that will disturb the flow of the website and the user will confuse the user. 
 
 ## Deployment
 
